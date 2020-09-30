@@ -148,8 +148,11 @@ section {
 /* FOOTER */
 
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #2A303B;
-    height: 500px;
+    height: 100px;
     color: white;
     font-family: 'Didact Gothic', sans-serif;
 }

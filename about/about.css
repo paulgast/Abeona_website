@@ -11,7 +11,7 @@ nav {
     justify-content: space-between;
     border-bottom: 1px solid black;
     width: 100%;
-    background-color: #F8F9FA
+    background-color: white
 }
 
 #links {
@@ -27,7 +27,6 @@ nav {
     margin-left: 20px;
     margin-top: 5px;
 }
-
 
 /* MAIN-SECTIONS */
 
@@ -61,45 +60,24 @@ section {
     font-family: 'Didact Gothic', sans-serif;
 }
 
-#article-picture-1 {
-    margin: 20px;
-    height: 300px;
-    background-position: center;
-    object-fit: contain;
-    box-shadow: 10px 5px 5px grey;
-}
 
-#tourism {
+#values{
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Didact Gothic', sans-serif;
+    text-justify: auto;
+    flex-wrap: wrap;
 }
 
-#article-picture-2 {
-    margin: 0 50px;
-    height: auto;
+#value-cases h2 {
+    text-decoration: underline;
+}
+#value-cases{
     width: 300px;
-    background-position: center;
-    object-fit: contain;
-    box-shadow: 10px 5px 5px grey;
+    padding: 0 20px;
 }
 
-#section-3 {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#section-3-text {
-    width: 800px;
-}
-
-#article-picture-3 {
-    width: 500px;
-    object-fit: contain;
-    border-radius: 20px;
-    box-shadow: 10px 5px 5px grey;
-    margin: 20px 0 40px 0;
-}
 
 /* FOOTER */
 

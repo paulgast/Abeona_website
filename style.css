@@ -11,7 +11,7 @@ nav {
     justify-content: space-between;
     border-bottom: 1px solid black;
     width: 100%;
-    background-color: #F8F9FA
+    background-color: white
 }
 
 #links {
@@ -110,7 +110,7 @@ section {
     height: 300px;
     background-position: center;
     object-fit: contain;
-    box-shadow: 10px 5px 5px grey;
+    box-shadow: 10px 5px 5px #d3d3d3;
 }
 
 #tourism {
@@ -150,4 +150,6 @@ section {
 footer {
     background-color: #2A303B;
     height: 500px;
+    color: white;
+    font-family: 'Didact Gothic', sans-serif;
 }

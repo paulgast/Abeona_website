@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+}
+
+/* NAVBAR */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    width: 100%;
+    background-color: #F8F9FA
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+}
+#links li {
+    margin: auto 60px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+#logo {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+/* BANNER */
+
+#welcome-titre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#welcome-titre h1{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 4em;
+
+}
+#welcome-titre h3{
+    font-family: 'Great Vibes', cursive;
+    margin: 0px;
+    font-size: 2em;
+    color: black;
+    text-decoration: underline black;
+
+}
+#banner {
+    width: 100%;
+    height: 250px;
+    color: white;
+    background-image: url("./images/beach-banner.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    border-bottom: 1px solid black;
+}
+#contact-button {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: grey;
+    border: grey 1px solid;
+}
+
+/* MAIN-SECTIONS */
+
+section {
+    margin: 0 auto;
+}
+
+#mission {
+    margin: auto auto;
+    width: 90%;
+    font-size: 22px;
+    font-family: 'Didact Gothic', sans-serif;
+    border-bottom: 1px solid #cecece;
+}
+
+#mission h2 {
+    margin: 20px 0px 10px 0px;
+}
+
+.article-element {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.article-text{
+    width: 600px;
+    margin-right: 50px;
+    text-align: justify;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+#article-picture-1 {
+    margin: 20px;
+    height: 300px;
+    background-position: center;
+    object-fit: contain;
+    box-shadow: 10px 5px 5px grey;
+}
+
+#tourism {
+    display: flex;
+    align-items: center;
+}
+
+#article-picture-2 {
+    margin: 0 50px;
+    height: auto;
+    width: 300px;
+    background-position: center;
+    object-fit: contain;
+    box-shadow: 10px 5px 5px grey;
+}
+
+#section-3 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-3-text {
+    width: 800px;
+}
+
+#article-picture-3 {
+    width: 500px;
+    object-fit: contain;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px grey;
+    margin: 20px 0 40px 0;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #2A303B;
+    height: 500px;
+}
